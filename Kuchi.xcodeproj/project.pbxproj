@@ -14,6 +14,7 @@
 		6758886322DA0C0B0015DE4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6758886122DA0C0B0015DE4B /* LaunchScreen.storyboard */; };
 		67D0F51022E70EE6009CC869 /* jp.json in Resources */ = {isa = PBXBuildFile; fileRef = 67D0F50F22E70EE6009CC869 /* jp.json */; };
 		8F05964B24F9313100836843 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F05964A24F9313100836843 /* Profile.swift */; };
+		8F05964D24F9318900836843 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F05964C24F9318900836843 /* UserManager.swift */; };
 		8F473A2824F7BEDF0024796B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F473A2724F7BEDF0024796B /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		6758888C22DA0F3C0015DE4B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		67D0F50F22E70EE6009CC869 /* jp.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jp.json; sourceTree = "<group>"; };
 		8F05964A24F9313100836843 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		8F05964C24F9318900836843 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		8F473A2724F7BEDF0024796B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				8F05964A24F9313100836843 /* Profile.swift */,
+				8F05964C24F9318900836843 /* UserManager.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				6758885722DA0C090015DE4B /* AppDelegate.swift in Sources */,
 				8F05964B24F9313100836843 /* Profile.swift in Sources */,
 				8F473A2824F7BEDF0024796B /* WelcomeView.swift in Sources */,
+				8F05964D24F9318900836843 /* UserManager.swift in Sources */,
 				6758885922DA0C090015DE4B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
