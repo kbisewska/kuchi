@@ -15,6 +15,7 @@
 		67D0F51022E70EE6009CC869 /* jp.json in Resources */ = {isa = PBXBuildFile; fileRef = 67D0F50F22E70EE6009CC869 /* jp.json */; };
 		8F05964B24F9313100836843 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F05964A24F9313100836843 /* Profile.swift */; };
 		8F05964D24F9318900836843 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F05964C24F9318900836843 /* UserManager.swift */; };
+		8F05964F24F932F500836843 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F05964E24F932F500836843 /* Settings.swift */; };
 		8F473A2824F7BEDF0024796B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F473A2724F7BEDF0024796B /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		67D0F50F22E70EE6009CC869 /* jp.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jp.json; sourceTree = "<group>"; };
 		8F05964A24F9313100836843 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		8F05964C24F9318900836843 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		8F05964E24F932F500836843 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		8F473A2724F7BEDF0024796B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,6 +133,7 @@
 			children = (
 				8F05964A24F9313100836843 /* Profile.swift */,
 				8F05964C24F9318900836843 /* UserManager.swift */,
+				8F05964E24F932F500836843 /* Settings.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F05964F24F932F500836843 /* Settings.swift in Sources */,
 				6758885722DA0C090015DE4B /* AppDelegate.swift in Sources */,
 				8F05964B24F9313100836843 /* Profile.swift in Sources */,
 				8F473A2824F7BEDF0024796B /* WelcomeView.swift in Sources */,
