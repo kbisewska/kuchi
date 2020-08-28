@@ -43,6 +43,7 @@
 		5797556B22E124B400246F70 /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
+				8F05964724F92B1900836843 /* Components */,
 				8F473A2724F7BEDF0024796B /* WelcomeView.swift */,
 			);
 			path = Welcome;
@@ -85,7 +86,9 @@
 		6758888622DA0C310015DE4B /* App */ = {
 			isa = PBXGroup;
 			children = (
+				8F05964824F92B3300836843 /* Profile */,
 				6758888922DA0D020015DE4B /* Resources */,
+				8F05964924F92B3800836843 /* Utils */,
 				5797556B22E124B400246F70 /* Welcome */,
 				6758885622DA0C090015DE4B /* AppDelegate.swift */,
 				6758885822DA0C090015DE4B /* SceneDelegate.swift */,
@@ -110,6 +113,27 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F05964724F92B1900836843 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8F05964824F92B3300836843 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8F05964924F92B3800836843 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
