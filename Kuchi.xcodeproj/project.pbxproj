@@ -26,6 +26,7 @@
 		8F05966024FD183D00836843 /* ChallengesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F05965F24FD183D00836843 /* ChallengesViewModel.swift */; };
 		8F05966224FD18C200836843 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F05966124FD18C200836843 /* QuestionView.swift */; };
 		8F05966424FD18E300836843 /* ChoicesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F05966324FD18E300836843 /* ChoicesRow.swift */; };
+		8F05966624FD190900836843 /* ChoicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F05966524FD190800836843 /* ChoicesView.swift */; };
 		8F473A2824F7BEDF0024796B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F473A2724F7BEDF0024796B /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		8F05965F24FD183D00836843 /* ChallengesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengesViewModel.swift; sourceTree = "<group>"; };
 		8F05966124FD18C200836843 /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		8F05966324FD18E300836843 /* ChoicesRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoicesRow.swift; sourceTree = "<group>"; };
+		8F05966524FD190800836843 /* ChoicesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoicesView.swift; sourceTree = "<group>"; };
 		8F473A2724F7BEDF0024796B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -178,6 +180,7 @@
 			children = (
 				8F05965F24FD183D00836843 /* ChallengesViewModel.swift */,
 				8F05966324FD18E300836843 /* ChoicesRow.swift */,
+				8F05966524FD190800836843 /* ChoicesView.swift */,
 				8F05966124FD18C200836843 /* QuestionView.swift */,
 			);
 			path = Practice;
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F05966624FD190900836843 /* ChoicesView.swift in Sources */,
 				8F05965924F9390A00836843 /* RegisterView.swift in Sources */,
 				8F05966424FD18E300836843 /* ChoicesRow.swift in Sources */,
 				8F05964F24F932F500836843 /* Settings.swift in Sources */,
