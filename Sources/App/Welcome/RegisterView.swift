@@ -59,6 +59,18 @@ struct RegisterView: View {
             }
             .padding(.bottom)
             
+            HStack {
+                Spacer()
+                
+                Toggle(isOn: $userManager.settings.rememberUser) {
+                    Text("Remember me")
+                        .font(.subheadline)
+                        .foregroundColor(.gray)
+                }
+                .fixedSize()
+            }
+            .padding(.bottom)
+            
             Button(action: self.registerUser) {
                 HStack {
                     Image(systemName: "checkmark")
@@ -94,6 +106,13 @@ struct RegisterView_Previews: PreviewProvider {
 // MARK: - Event Handlers
 extension RegisterView {
     func registerUser() {
-        userManager.persistProfile()
+        if userManager.settings.rememberUser {
+            userManager.persistProfile()
+        } else {
+            userManager.clear()
+        }
+        
+        userManager.persistSettings()
+        userManager.setRegistered()
     }
 }
