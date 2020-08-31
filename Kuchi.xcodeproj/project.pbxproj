@@ -24,6 +24,7 @@
 		8F05965B24FCF77700836843 /* BorderedViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F05965A24FCF77700836843 /* BorderedViewModifier.swift */; };
 		8F05965D24FD174800836843 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F05965C24FD174800836843 /* StarterView.swift */; };
 		8F05966024FD183D00836843 /* ChallengesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F05965F24FD183D00836843 /* ChallengesViewModel.swift */; };
+		8F05966224FD18C200836843 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F05966124FD18C200836843 /* QuestionView.swift */; };
 		8F473A2824F7BEDF0024796B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F473A2724F7BEDF0024796B /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		8F05965A24FCF77700836843 /* BorderedViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedViewModifier.swift; sourceTree = "<group>"; };
 		8F05965C24FD174800836843 /* StarterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 		8F05965F24FD183D00836843 /* ChallengesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengesViewModel.swift; sourceTree = "<group>"; };
+		8F05966124FD18C200836843 /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		8F473A2724F7BEDF0024796B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -173,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				8F05965F24FD183D00836843 /* ChallengesViewModel.swift */,
+				8F05966124FD18C200836843 /* QuestionView.swift */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				8F05965524F934C900836843 /* LogoImage.swift in Sources */,
 				8F473A2824F7BEDF0024796B /* WelcomeView.swift in Sources */,
 				8F05965124F9333800836843 /* KeyboardFollower.swift in Sources */,
+				8F05966224FD18C200836843 /* QuestionView.swift in Sources */,
 				8F05964D24F9318900836843 /* UserManager.swift in Sources */,
 				8F05965324F9343100836843 /* WelcomeBackgroundImage.swift in Sources */,
 				8F05966024FD183D00836843 /* ChallengesViewModel.swift in Sources */,
