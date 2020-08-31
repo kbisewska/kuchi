@@ -33,14 +33,21 @@
 import SwiftUI
 
 struct RegisterView: View {
+    @State var name: String = ""
+    
     var body: some View {
-        ZStack {
-            WelcomeBackgroundImage()
+        VStack {
+            Spacer()
             
-            VStack {
-                WelcomeMessageView()
-            }
+            WelcomeMessageView()
+            
+            TextField("Type your name...", text: $name)
+                .bordered()
+            
+            Spacer()
         }
+        .padding()
+        .background(WelcomeBackgroundImage())
     }
 }
 
