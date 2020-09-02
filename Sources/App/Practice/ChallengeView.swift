@@ -37,24 +37,46 @@ struct ChallengeView: View {
     
     @State var showAnswers = false
     @Binding var numberOfAnswered: Int
+    @Environment(\.verticalSizeClass) var verticalSizeClass
     
+    @ViewBuilder
     var body: some View {
-        VStack {
-            Button(action: {
-                self.showAnswers = !self.showAnswers
-            }) {
-                QuestionView(question: challengeTest.challenge.question)
-                    .frame(height: 300)
-            }
-            
-            ScoreView(numberOfQuestions: 5, numberOfAnswered: $numberOfAnswered)
-            
-            if showAnswers {
-                Divider()
+        if verticalSizeClass == .compact {
+            VStack {
+                HStack {
+                    Button(action: {
+                        self.showAnswers = !self.showAnswers
+                    }) {
+                        QuestionView(question: challengeTest.challenge.question)
+                    }
+                    
+                    if showAnswers {
+                        Divider()
+                        
+                        ChoicesView(challengeTest: challengeTest)
+                    }
+                }
                 
-                ChoicesView(challengeTest: challengeTest)
-                    .frame(height: 300)
-                    .padding()
+                ScoreView(numberOfQuestions: 5, numberOfAnswered: $numberOfAnswered)
+            }
+        } else {
+            VStack {
+                Button(action: {
+                    self.showAnswers = !self.showAnswers
+                }) {
+                    QuestionView(question: challengeTest.challenge.question)
+                        .frame(height: 300)
+                }
+                
+                ScoreView(numberOfQuestions: 5, numberOfAnswered: $numberOfAnswered)
+                
+                if showAnswers {
+                    Divider()
+                    
+                    ChoicesView(challengeTest: challengeTest)
+                        .frame(height: 300)
+                        .padding()
+                }
             }
         }
     }
