@@ -33,13 +33,22 @@
 import SwiftUI
 
 struct ScoreView: View {
+    @State var numberOfAnswered = 0
+    let numberOfQuestions: Int
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Text("\(numberOfAnswered)/\(numberOfQuestions)")
+                .font(.caption)
+                .padding(4)
+            
+            Spacer()
+        }
     }
 }
 
 struct ScoreView_Previews: PreviewProvider {
     static var previews: some View {
-        ScoreView()
+        ScoreView(numberOfQuestions: 5)
     }
 }

@@ -46,7 +46,7 @@ struct ChallengeView: View {
                     .frame(height: 300)
             }
             
-            ScoreView()
+            ScoreView(numberOfQuestions: 5)
             
             if showAnswers {
                 Divider()
