@@ -33,8 +33,8 @@
 import SwiftUI
 
 struct ScoreView: View {
-    @State var numberOfAnswered = 0
     let numberOfQuestions: Int
+    @Binding var numberOfAnswered: Int
     
     var body: some View {
         HStack {
@@ -48,7 +48,9 @@ struct ScoreView: View {
 }
 
 struct ScoreView_Previews: PreviewProvider {
+    @State static var numberOfAnswered = 0
+    
     static var previews: some View {
-        ScoreView(numberOfQuestions: 5)
+        ScoreView(numberOfQuestions: 5, numberOfAnswered: $numberOfAnswered)
     }
 }
