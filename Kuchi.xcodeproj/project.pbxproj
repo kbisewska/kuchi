@@ -38,6 +38,7 @@
 		8FADF75125011B7B0063BE0B /* FlashDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FADF75025011B7B0063BE0B /* FlashDeck.swift */; };
 		8FADF75325011CD00063BE0B /* LearningStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FADF75225011CD00063BE0B /* LearningStore.swift */; };
 		8FADF75525011E740063BE0B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FADF75425011E740063BE0B /* CardView.swift */; };
+		8FADF757250123550063BE0B /* DeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FADF756250123550063BE0B /* DeckView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		8FADF75025011B7B0063BE0B /* FlashDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashDeck.swift; sourceTree = "<group>"; };
 		8FADF75225011CD00063BE0B /* LearningStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningStore.swift; sourceTree = "<group>"; };
 		8FADF75425011E740063BE0B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8FADF756250123550063BE0B /* DeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +222,7 @@
 				8FADF75025011B7B0063BE0B /* FlashDeck.swift */,
 				8FADF75225011CD00063BE0B /* LearningStore.swift */,
 				8FADF75425011E740063BE0B /* CardView.swift */,
+				8FADF756250123550063BE0B /* DeckView.swift */,
 			);
 			path = Learn;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				8F05966624FD190900836843 /* ChoicesView.swift in Sources */,
 				8FADF75525011E740063BE0B /* CardView.swift in Sources */,
 				8F05965924F9390A00836843 /* RegisterView.swift in Sources */,
+				8FADF757250123550063BE0B /* DeckView.swift in Sources */,
 				8F05966424FD18E300836843 /* ChoicesRow.swift in Sources */,
 				8FADF74B250104C90063BE0B /* LearnView.swift in Sources */,
 				8F05964F24F932F500836843 /* Settings.swift in Sources */,
