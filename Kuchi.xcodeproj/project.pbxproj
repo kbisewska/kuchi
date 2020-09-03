@@ -34,6 +34,7 @@
 		8F473A2824F7BEDF0024796B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F473A2724F7BEDF0024796B /* WelcomeView.swift */; };
 		8FADF74B250104C90063BE0B /* LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FADF74A250104C90063BE0B /* LearnView.swift */; };
 		8FADF74D25010D760063BE0B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FADF74C25010D760063BE0B /* HomeView.swift */; };
+		8FADF74F250115F60063BE0B /* FlashCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FADF74E250115F60063BE0B /* FlashCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		8F473A2724F7BEDF0024796B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		8FADF74A250104C90063BE0B /* LearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnView.swift; sourceTree = "<group>"; };
 		8FADF74C25010D760063BE0B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8FADF74E250115F60063BE0B /* FlashCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				8FADF74A250104C90063BE0B /* LearnView.swift */,
+				8FADF74E250115F60063BE0B /* FlashCard.swift */,
 			);
 			path = Learn;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				8F05965124F9333800836843 /* KeyboardFollower.swift in Sources */,
 				8F05966224FD18C200836843 /* QuestionView.swift in Sources */,
 				8F05964D24F9318900836843 /* UserManager.swift in Sources */,
+				8FADF74F250115F60063BE0B /* FlashCard.swift in Sources */,
 				8F05965324F9343100836843 /* WelcomeBackgroundImage.swift in Sources */,
 				8F05966024FD183D00836843 /* ChallengesViewModel.swift in Sources */,
 				6758885922DA0C090015DE4B /* SceneDelegate.swift in Sources */,
