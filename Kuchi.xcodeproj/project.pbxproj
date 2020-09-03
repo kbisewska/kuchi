@@ -36,6 +36,7 @@
 		8FADF74D25010D760063BE0B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FADF74C25010D760063BE0B /* HomeView.swift */; };
 		8FADF74F250115F60063BE0B /* FlashCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FADF74E250115F60063BE0B /* FlashCard.swift */; };
 		8FADF75125011B7B0063BE0B /* FlashDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FADF75025011B7B0063BE0B /* FlashDeck.swift */; };
+		8FADF75325011CD00063BE0B /* LearningStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FADF75225011CD00063BE0B /* LearningStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		8FADF74C25010D760063BE0B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8FADF74E250115F60063BE0B /* FlashCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCard.swift; sourceTree = "<group>"; };
 		8FADF75025011B7B0063BE0B /* FlashDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashDeck.swift; sourceTree = "<group>"; };
+		8FADF75225011CD00063BE0B /* LearningStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +216,7 @@
 				8FADF74A250104C90063BE0B /* LearnView.swift */,
 				8FADF74E250115F60063BE0B /* FlashCard.swift */,
 				8FADF75025011B7B0063BE0B /* FlashDeck.swift */,
+				8FADF75225011CD00063BE0B /* LearningStore.swift */,
 			);
 			path = Learn;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				8F05965524F934C900836843 /* LogoImage.swift in Sources */,
 				8F473A2824F7BEDF0024796B /* WelcomeView.swift in Sources */,
 				8F05965124F9333800836843 /* KeyboardFollower.swift in Sources */,
+				8FADF75325011CD00063BE0B /* LearningStore.swift in Sources */,
 				8F05966224FD18C200836843 /* QuestionView.swift in Sources */,
 				8F05964D24F9318900836843 /* UserManager.swift in Sources */,
 				8FADF74F250115F60063BE0B /* FlashCard.swift in Sources */,
