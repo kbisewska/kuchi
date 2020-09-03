@@ -37,6 +37,7 @@
 		8FADF74F250115F60063BE0B /* FlashCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FADF74E250115F60063BE0B /* FlashCard.swift */; };
 		8FADF75125011B7B0063BE0B /* FlashDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FADF75025011B7B0063BE0B /* FlashDeck.swift */; };
 		8FADF75325011CD00063BE0B /* LearningStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FADF75225011CD00063BE0B /* LearningStore.swift */; };
+		8FADF75525011E740063BE0B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FADF75425011E740063BE0B /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		8FADF74E250115F60063BE0B /* FlashCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCard.swift; sourceTree = "<group>"; };
 		8FADF75025011B7B0063BE0B /* FlashDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashDeck.swift; sourceTree = "<group>"; };
 		8FADF75225011CD00063BE0B /* LearningStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningStore.swift; sourceTree = "<group>"; };
+		8FADF75425011E740063BE0B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,7 @@
 				8FADF74E250115F60063BE0B /* FlashCard.swift */,
 				8FADF75025011B7B0063BE0B /* FlashDeck.swift */,
 				8FADF75225011CD00063BE0B /* LearningStore.swift */,
+				8FADF75425011E740063BE0B /* CardView.swift */,
 			);
 			path = Learn;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F05966624FD190900836843 /* ChoicesView.swift in Sources */,
+				8FADF75525011E740063BE0B /* CardView.swift in Sources */,
 				8F05965924F9390A00836843 /* RegisterView.swift in Sources */,
 				8F05966424FD18E300836843 /* ChoicesRow.swift in Sources */,
 				8FADF74B250104C90063BE0B /* LearnView.swift in Sources */,
